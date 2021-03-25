@@ -1,0 +1,13 @@
+m = int(input('Digite o valor inteiro em metros: '))
+km = m / 1000
+hm = m / 100
+dam = m / 10
+dm = m * 10
+cm = m * 100
+mm = cm * 10
+print('\033[1;30;41m {}m \033[1;30;42m = \033[1;30;43m {}km  \033[m'.format(m, km))
+print('\033[1;30;41m {}m \033[1;30;42m = \033[1;30;43m {}hm   \033[m'.format(m, hm))
+print('\033[1;30;41m {}m \033[1;30;42m = \033[1;30;43m {}dam  \033[m'.format(m, dam))
+print('\033[1;30;41m {}m \033[1;30;42m = \033[1;30;43m {}dm   \033[m'.format(m, dm))
+print('\033[1;30;41m {}m \033[1;30;42m = \033[1;30;43m {}cm  \033[m'.format(m, cm))
+print('\033[1;30;41m {}m \033[1;30;42m = \033[1;30;43m {}mm \033[m'.format(m, mm))

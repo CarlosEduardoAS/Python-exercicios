@@ -1,0 +1,10 @@
+from random import randint
+num1 = randint(0, 10)
+num2 = randint(0, 10)
+num3 = randint(0, 10)
+num4 = randint(0, 10)
+num5 = randint(0, 10)
+lista = (num1, num2, num3, num4, num5)
+print(f'Os valores sorteados foram: {lista}')
+print(f'O menor valor sorteado foi {sorted(lista)[0]}')
+print(f'O maior valor sorteado foi {sorted(lista)[-1]}')
